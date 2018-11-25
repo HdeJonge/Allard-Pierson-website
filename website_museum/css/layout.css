@@ -1,0 +1,133 @@
+@charset "utf-8";
+#container{
+	width: 960px;
+	height: 2320px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: #808080;
+}
+#header{
+	padding-top: 30px;
+	top: 0px;
+	left:0px;
+	width: 960px;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+}
+#balk{
+	top:100px;
+	left:0px;
+	width: 960px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	z-index: 1
+}
+#content{
+	top: 150px;
+	left: 0px;
+	width: 960px;
+	height: 2020PX;
+	background-color: lightgrey;
+	position: absolute;
+	z-index: 1;
+	background-image: url(../afbeeldingen/museum.jpg);
+	background-repeat: no-repeat;
+}
+
+#menu{
+	top:80px;
+	left: 80px;
+	height: 100px;
+	width: 800px;
+	background-color: white;
+	position: absolute;
+	z-index: 2
+}
+#sidebar_links, #sidebar_rechts{
+	padding-top: 25px;
+	top:220px;
+	height:1800PX;
+	width:150px;
+	background-color: white;
+	position: absolute;
+	z-index: 2;
+}
+#sidebar_links{
+	left:80px;
+}
+#sidebar_rechts{
+	left: 719px;
+}
+#artikel{
+	top:220px;
+	left:230px;
+	height:1800PX;
+	width:500px;
+	background-color: white;
+	position: absolute;
+	z-index: 2;
+	padding-top:20px
+}
+
+#blok1, #blok2, #blok3,#blok4{
+	top:200px;
+	height:120px;
+	width:175px;
+	background-color: white;
+	position: absolute;
+	z-index: 2;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#blok1{
+	left: 80px;
+	background-image: url(../afbeeldingen/blok1.jpg);
+}
+#blok2{
+	left: 285px;
+	background-image: url(../afbeeldingen/blok2.jpg);
+}
+#blok3{
+	left: 490px;
+	background-image: url(../afbeeldingen/blok3.jpg);
+}
+#blok4{
+	left: 695px;
+	background-image: url(../afbeeldingen/blok4.jpg);
+}
+#footer{
+	padding-left: 20px;
+	top: 2170px;
+	left: 0px;
+	width: 940px;
+	height: 150px;
+	background-color: lightgray;
+	position: absolute;
+	z-index: 1;
+	background-size: contain;
+}
+#footer_blok1{
+	height:150px;
+	width:200px;
+	position: absolute;
+	z-index: 2;
+}
+#footer_blok2{
+	left:200px;
+	height:150px;
+	width:300px;
+	position: absolute;
+	z-index: 2;
+}
+#footer_blok3{
+	left:500px;
+	height:150px;
+	width:200px;
+	position: absolute;
+	z-index: 2;
+}
