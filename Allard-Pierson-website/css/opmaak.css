@@ -1,0 +1,49 @@
+body {
+	font-family: Arial;
+	background-image: url(../afbeeldingen/bg.jpg);
+	background-repeat: repeat;
+	margin: 0px;
+}
+#menu h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		margin: 0px 0px 5px 0px;
+}
+.hyperlinks a{
+	margin-right: 5px;
+}
+#header .hyperlinks {
+	float: right;
+}
+
+#sidebar_links ul li{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#sidebar_links ul{
+	margin-top: 0px;
+}
+#sidebar_rechts img{
+	margin-bottom: 10px;
+	float: right;
+}
+a{
+	font-weight:bold;
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:red;
+}
+
+h2{
+	background-color: black;
+	color: white;
+	padding: 5px;
+	margin:0px;
+	font-size: 20px;
+}
+#footer p{
+	font-size: 15px;
+	color: gray;
+}
