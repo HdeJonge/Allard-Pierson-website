@@ -1,7 +1,7 @@
 @charset "utf-8";
 #container{
 	width: 960px;
-	height: 2730px;
+	height: 1150px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -34,7 +34,7 @@
 	top:80px;
 	left: 80px;
 	height: 60px;
-	width: 800px;
+	width: 760px;
 	background-color: white;
 	position: absolute;
 	z-index: 2
@@ -43,7 +43,7 @@
 	top: 150px;
 	left: 0px;
 	width: 960px;
-	height: 2430PX;
+	height: 850PX;
 	background-color: lightgrey;
 	position: absolute;
 	z-index: 1;
@@ -54,7 +54,7 @@
 	padding-top: 25px;
 	left:80px;
 	top:220px;
-	height:2185px;
+	height:605px;
 	width: 800px;
 	position: absolute;
 	z-index: 1;
@@ -62,7 +62,7 @@
 }
 
 #sidebar_links, #sidebar_rechts{
-	height:2185px;
+	height:605px;
 	width:150px;
 	background-color: white;
 	position: absolute;
@@ -73,7 +73,7 @@
 }
 #artikel{
 	left:150px;
-	height:2185px;
+	height:605px;
 	width:480px;
 	background-color: white;
 	position: absolute;
@@ -83,7 +83,7 @@
 }
 #footer{
 	padding-left: 20px;
-	top: 2580px;
+	top: 1000px;
 	left: 0px;
 	width: 940px;
 	height: 150px;
