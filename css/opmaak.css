@@ -30,6 +30,7 @@ a{
 	font-weight:bold;
 	text-decoration: none;
 	color:black;
+	font-size: 14px;
 }
 a:hover{
 	color:red;
@@ -42,7 +43,16 @@ h2{
 	margin:0px;
 	font-size: 20px;
 }
-#footer p{
-	font-size: 15px;
+#footer{
+	font-size: 15px
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer a{
+	font-weight:normal;
 	color: gray;
+}
+li {
+	margin-bottom: 10px;
 }

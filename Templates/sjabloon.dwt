@@ -1,4 +1,6 @@
-<meta charset="utf-8"></meta>
+<!doctype html>
+
+<meta charset="utf-8">
 
 <!-- TemplateBeginEditable name="doctitle" -->
 
@@ -10,13 +12,11 @@
   href="../css/opmaak.css"
   rel="stylesheet"
   type="text/css">
-</link>
 
 <link
   href="../css/layout.css"
   rel="stylesheet"
   type="text/css">
-</link>
 
 <!-- TemplateBeginEditable name="head" -->
 
