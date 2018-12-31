@@ -1,0 +1,42 @@
+@charset "utf-8";
+.foto1{
+    background-image: url("../afbeeldingen/tentoonstelling/Cleopatra.gif");
+
+}
+.foto1:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/Cleopatra.gif");
+
+}
+.foto2{
+    background-image: url("../afbeeldingen/tentoonstelling/romeinen.gif");
+}
+.foto2:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/romeinen.gif");
+}
+.foto3{
+    background-image: url("../afbeeldingen/tentoonstelling/Egyptye.gif");
+}
+.foto3:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/Egyptye.gif");
+}
+.foto4{
+    background-image: url("../afbeeldingen/tentoonstelling/Onder_zee.gif");
+}
+.foto4:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/Onder_zee.gif");
+}
+.foto5{
+    background-image: url("../afbeeldingen/tentoonstelling/Heilige_boeken.gif");
+}
+.foto6{
+    background-image: url("../afbeeldingen/tentoonstelling/Forum.gif");
+}
+.foto6:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/Forum.gif");
+}
+.foto7{
+    background-image: url("../afbeeldingen/tentoonstelling/Museum.gif");
+}
+.foto7:hover{
+    background-image: url("../afbeeldingen/tentoonstelling/zw/Museum.gif");
+}

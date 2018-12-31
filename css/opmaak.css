@@ -1,3 +1,4 @@
+@charset "utf-8";
 body {
 	font-family: Arial;
 	background-image: url(../afbeeldingen/bg.jpg);
@@ -57,4 +58,16 @@ h2{
 }
 li {
 	margin-bottom: 10px;
+}
+.hov:hover{
+    background-color: yellow;
+}
+#blocks a{
+    background-color: blue;
+}
+.rollover{
+    width:120px;
+	height:120px;
+	background-color:yellow;
+	float:left;
 }

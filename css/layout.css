@@ -159,3 +159,7 @@
 	position: absolute;
 	z-index: 2;
 }
+#blocks{
+    box-sizing: border-box;
+    position: relative;
+}
