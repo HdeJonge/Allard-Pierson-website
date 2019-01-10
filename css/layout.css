@@ -1,4 +1,9 @@
 @charset "utf-8";
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 #container{
 	width: 960px;
 	height: 1150px;
@@ -12,83 +17,68 @@
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 20px;
-	top: 0px;
-	left: 0px;
 	width: 900px;
 	height: 40px;
 	background-color: white;
-	position: absolute;
 	z-index: 1;
 }
 #balk{
-	top:100px;
-	left:0px;
 	width: 960px;
 	height: 50px;
 	background-color: black;
-	position: absolute;
 	z-index: 1
 }
 #menu{
 	padding: 20px;
-	top:80px;
-	left: 80px;
 	height: 60px;
 	width: 760px;
 	background-color: white;
-	position: absolute;
-	z-index: 2
+	margin: 80px auto 40px auto;
+	z-index: 2;
+    position: relative;
 }
 #content{
-	top: 150px;
-	left: 0px;
+    padding: 5px;
 	width: 960px;
-	height: 850px;
+	min-height: 250px;
 	background-color: lightgrey;
-	position: absolute;
 	z-index: 1;
 	background-image: url(../afbeeldingen/museum.jpg);
 	background-repeat: no-repeat;
 }
 #block{
 	padding-top: 25px;
-	left:80px;
-	top:220px;
-	height:605px;
+    padding-bottom: 25px;
+    margin: auto;
+	min-height:200px;
 	width: 800px;
-	position: absolute;
 	z-index: 1;
+    display: block;
+    position: relative;
 	background-color: white;
 }
 
 #sidebar_links, #sidebar_rechts{
-	height:605px;
+	height:550px;
 	width:150px;
 	background-color: white;
-	position: absolute;
+	float: left;
 	z-index: 2;
 }
-#sidebar_rechts{
-	left: 650px;
-}
 #artikel{
-	left:150px;
-	height:605px;
+	min-height:550px;
 	width:480px;
 	background-color: white;
-	position: absolute;
+	float:left;
 	z-index: 2;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 #footer{
 	padding-left: 20px;
-	top: 1000px;
-	left: 0px;
 	width: 940px;
 	height: 150px;
 	background-color: lightgray;
-	position: absolute;
 	z-index: 1;
 	background-size: contain;
 }
@@ -112,7 +102,6 @@
 }
 
 #blok1, #blok2, #blok3,#blok4{
-	top:200px;
 	height:120px;
 	width:175px;
 	background-color: white;
@@ -140,23 +129,23 @@
 }
 
 #footer_blok1{
+    float: left;
 	height:150px;
 	width:200px;
-	position: absolute;
 	z-index: 2;
 }
 #footer_blok2{
-	left:200px;
+    
+    float: left;
 	height:150px;
 	width:310px;
-	position: absolute;
 	z-index: 2;
 }
 #footer_blok3{
-	left:510px;
+    
+    float: left;
 	height:150px;
 	width:200px;
-	position: absolute;
 	z-index: 2;
 }
 #blocks{
